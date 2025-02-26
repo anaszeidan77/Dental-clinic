@@ -1,9 +1,8 @@
 # نظام إدارة العيادة السنية
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
   <br>
-<img src="https://github.com/user-attachments/assets/57fac77e-6ee9-4611-ab63-efcfb83c6d29" width="400" alt="Laravel Logo">
+<img src="https://github.com/user-attachments/assets/57fac77e-6ee9-4611-ab63-efcfb83c6d29" alt="Laravel Logo">
 
 
 </p>
