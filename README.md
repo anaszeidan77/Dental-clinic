@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-<img src="https://github.com/user-attachments/assets/57fac77e-6ee9-4611-ab63-efcfb83c6d29" alt="Laravel Logo">
+  <img src="https://github.com/user-attachments/assets/57fac77e-6ee9-4611-ab63-efcfb83c6d29" alt="Laravel Logo">
 </p>
 
 <img src="https://github.com/user-attachments/assets/064d4310-cb8e-48c2-be21-7fca6c039304" alt="Laravel Logo">
@@ -31,50 +31,48 @@
 ```bash
 git clone https://github.com/yourusername/dental-clinic.git
 cd dental-clinic
-2. تثبيت الحزم المطلوبة
-bash
-Copy
-Edit
+```
+
+### 2. تثبيت الحزم المطلوبة
+```bash
 composer install
 npm install
 npm run dev
-3. إعداد ملف البيئة .env
-bash
-Copy
-Edit
+```
+
+### 3. إعداد ملف البيئة .env
+```bash
 cp .env.example .env
 php artisan key:generate
-4. إعداد قاعدة البيانات
-أنشئ قاعدة بيانات جديدة في MySQL (مثلاً: dental_clinic_db).
-حدّث إعدادات الاتصال بقاعدة البيانات في ملف .env:
-env
-Copy
-Edit
+```
+
+### 4. إعداد قاعدة البيانات
+- أنشئ قاعدة بيانات جديدة في MySQL (مثلاً: `dental_clinic_db`).
+- حدّث إعدادات الاتصال بقاعدة البيانات في ملف `.env`:
+```env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=dental_clinic_db
 DB_USERNAME=root
 DB_PASSWORD=yourpassword
-5. تشغيل الترحيلات وإنشاء الجداول
-bash
-Copy
-Edit
+```
+
+### 5. تشغيل الترحيلات وإنشاء الجداول
+```bash
 php artisan migrate
-6. تشغيل Seeders لإضافة بيانات افتراضية
-bash
-Copy
-Edit
+```
+
+### 6. تشغيل Seeders لإضافة بيانات افتراضية
+```bash
 php artisan db:seed
+```
+
 أو لتشغيل Seeder محدد:
-
-bash
-Copy
-Edit
+```bash
 php artisan db:seed --class=RoleSeeder
-أو لإعادة تهيئة قاعدة البيانات بالكامل وتشغيل Seeders:
+```
 
-bash
-Copy
-Edit
+أو لإعادة تهيئة قاعدة البيانات بالكامل وتشغيل Seeders:
+```bash
 php artisan migrate:fresh --seed
