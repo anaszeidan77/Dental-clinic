@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
   <br>
-![image](https://github.com/user-attachments/assets/7d1d1ffb-b525-4a12-b24d-c7b5d55f5ee9)
+(https://github.com/user-attachments/assets/7d1d1ffb-b525-4a12-b24d-c7b5d55f5ee9).
 
 </p>
 
