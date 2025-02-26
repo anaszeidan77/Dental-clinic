@@ -3,7 +3,8 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
   <br>
-  <img src="public/images/clinic-logo.png" width="200" alt="Clinic Logo">
+  <img src="![image](https://github.com/user-attachments/assets/877153ea-c0f3-4c05-be57-fe4ec2e24af2)
+" width="200" alt="Clinic Logo">
 </p>
 
 ## 📝 وصف المشروع
